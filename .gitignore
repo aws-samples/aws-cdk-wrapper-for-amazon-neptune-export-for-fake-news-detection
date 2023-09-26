@@ -1,0 +1,14 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+.DS_STORE
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+scripts/*.js
+lib/neptune_base_stack.json
+lib/neptune_ml_core_stack.json
+lib/neptune_sagemaker_notebook_stack.json
+lib/neptune_ml_nested_base_stack.json
